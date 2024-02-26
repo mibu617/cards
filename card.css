@@ -1,0 +1,78 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: darkgray;
+}
+.cards {
+  display: flex;
+  gap: 2vw;
+}
+.card {
+  width: 25vw;
+  height: auto;
+  padding: 10px;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+.texto {
+  margin: 0;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+h2 {
+  font-size: 1rem;
+  margin-bottom: 2px;
+}
+h5 {
+  font-weight: 600;
+  font-size: 0.7rem;
+  margin: 15px 0 7px;
+  color: darkgrey;
+}
+.tallas {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 4px;
+  border-color: darkgrey;
+}
+span {
+  width: 20vw;
+  border-radius: 1px;
+  border-color: darkgrey;
+  margin-bottom: 1rem;
+}
+.compra {
+  margin-top: 15px;
+  height: 30px;
+  width: 25vw;
+  border-radius: 0.5rem;
+  color: white;
+  background-color: black;
+}
+button {
+  font-size: 0.8rem;
+  height: 34px;
+  width: 4vw;
+  background-color: white;
+  border-radius: 1px;
+  border-color: darkgray;
+  border-radius: 0.5rem;
+}
+
+button:hover {
+  color: white;
+  background-color: black;
+}
+.footer {
+  gap: 20px;
+  font-size: 15px;
+  align-items: center;
+  display: flex;
+  justify-items: center;
+}
