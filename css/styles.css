@@ -20,14 +20,12 @@ body {
 }
 .card {
   width: 25vw;
-  height: auto;
   padding: 10px;
   background-color: white;
   border-radius: 0.5rem;
 }
 img {
   max-width: 100%;
-  height: auto;
   border-radius: 0.5rem;
 }
 .texto {
@@ -41,40 +39,29 @@ h2 {
   margin-bottom: 2px;
 }
 h5 {
-  font-weight: 600;
   font-size: 0.7rem;
   margin: 15px 0 7px;
   color: darkgrey;
 }
 .tallas {
+  width: 24vw;
   padding: 0;
   display: flex;
   justify-content: space-between;
-  border-radius: 4px;
-  border-color: darkgrey;
-}
-span {
-  width: 20vw;
-  border-radius: 1px;
-  border-color: darkgrey;
-  margin-bottom: 1rem;
 }
 .compra {
-  gap: 9px;
+  gap: 1vw;
   display: flex;
   justify-content: center;
-  justify-items: center;
-  align-content: center;
   align-items: center;
   margin-top: 15px;
   height: 30px;
   width: 25vw;
-  border-radius: 0.5rem;
   color: white;
   background-color: black;
 }
 button {
-  font-size: 0.8rem;
+  font-size: 1vw;
   height: 34px;
   width: 4vw;
   background-color: white;
@@ -92,29 +79,4 @@ button:hover {
   align-items: center;
   display: flex;
   justify-items: center;
-}
-.cuarenta {
-  font-size: 0.8rem;
-  height: 34px;
-  width: 4vw;
-  background-color: white;
-  border: darkgray solid 1px;
-  border-radius: 0.5rem;
-}
-li {
-  display: flex;
-  justify-content: space-between;
-  gap: 3vw;
-}
-a {
-  font-size: 0.8rem;
-  height: 34px;
-
-  background-color: white;
-  border: darkgray solid 1px;
-  border-radius: 1rem;
-}
-.gg-shopping-bag {
-  width: 10px;
-  height: 10px;
 }
