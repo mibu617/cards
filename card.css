@@ -53,6 +53,12 @@ span {
   margin-bottom: 1rem;
 }
 .compra {
+  gap: 9px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
   margin-top: 15px;
   height: 30px;
   width: 25vw;
@@ -102,4 +108,8 @@ a {
   background-color: white;
   border: darkgray solid 1px;
   border-radius: 1rem;
+}
+.gg-shopping-bag {
+  width: 10px;
+  height: 10px;
 }
