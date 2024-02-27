@@ -5,6 +5,13 @@ html {
 body {
   width: max-content;
 }
+@media only screen and (max-width: 850px) {
+  .cards {
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+  }
+}
 .cards {
   width: 25vw;
   height: auto;
@@ -102,7 +109,7 @@ li {
 a {
   font-size: 0.8rem;
   height: 34px;
-  width: vw;
+
   background-color: white;
   border: darkgray solid 1px;
   border-radius: 1rem;
