@@ -40,7 +40,7 @@ img {
   margin: 0;
   font-size: 15px;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-between;
 }
 h2 {
@@ -62,7 +62,7 @@ h5 {
   text-align: center;
   font-size: 1.5vmax;
   height: 3vmax;
-  width: 16vmax;
+  width: 18vmax;
   border: darkgray solid 1px;
   border-radius: 5px;
   margin-right: 10px;
@@ -94,5 +94,6 @@ span:hover {
     align-items: center;
     align-content: center;
     flex-direction: column;
+    gap: 20px;
   }
 }
